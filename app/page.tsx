@@ -3,7 +3,7 @@ import Searchbar from "@/components/Searchbar";
 import Image from "next/image";
 import React from "react";
 import { getAllProducts } from "@/lib/actions";
-import ProductCard from "@/components/productCard";
+import ProductCard from "@/components/ProductCard";
 const Home = async () => {
   const allProducts = await getAllProducts();
 
